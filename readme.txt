@@ -12,3 +12,8 @@
 commit 可以一次提交很多文件 则可以多次add不同的文件
 
 4.git status (查看当前仓库状态)
+5.git diff (查看上次readme修改内容) git diff readme.txt
+
+6.修改完文件后 再次将文件添加到仓库 git add 
+
+7.将新添加到仓库的文件提交至仓库 git commit -m "提交简要说明"
