@@ -1,0 +1,1 @@
+﻿这是一个Notepad readme测试文件
