@@ -19,7 +19,14 @@ commit 可以一次提交很多文件 则可以多次add不同的文件
 7.将新添加到仓库的文件提交至仓库 git commit -m "提交简要说明"
 
 三、
-1.版本回退
+1.版本回退 a--b
 
 git log (显示从最近到最远的提交日志)
 git log [--pretty=online]
+
+git reset -- hard HEAD^ (回退到上个版本)  ==>穿梭前（b-->a）
+		  -- hard HEAD^^(回退到上上个版本)
+		  -- hard HEAD~100(回退到往上100个版本)
+		  -- hard commit id号（回退到指定版本 根据id号）
+		  
+git reflog (查看命令历史，以便确定要回到未来的哪个版本) ==>重返未来 （a-->b）
