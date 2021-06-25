@@ -20,3 +20,6 @@ commit 可以一次提交很多文件 则可以多次add不同的文件
 
 三、
 1.版本回退
+
+git log (显示从最近到最远的提交日志)
+git log [--pretty=online]
