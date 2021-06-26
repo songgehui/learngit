@@ -39,3 +39,8 @@ git reflog (查看命令历史，以便确定要回到未来的哪个版本) ==>
 .git
 
 创建版本库时 Git自动创建了唯一一个master分支 所以git commit 就是往master分支上提交
+
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+
+五、
+撤销修改
