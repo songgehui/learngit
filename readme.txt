@@ -53,3 +53,12 @@ git reset HEAD <文件名>
 3.已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
 六、删除文件
+一是确实要从版本库中删除该文件，那就用命令
+git rm删掉，并且git commit
+
+如 rm test.txt
+   git add .
+   git commit -m "删除test"
+   
+另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本
+git checkout -- test.txt
