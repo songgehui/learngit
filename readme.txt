@@ -48,3 +48,4 @@ git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新�
 git checkout -- file(要撤销修改的文件名)
 2.修改文件后 提交到了暂存区
 git reset HEAD <文件名>
+12
