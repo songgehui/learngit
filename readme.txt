@@ -1,5 +1,6 @@
 ﻿这是一个Notepad readme测试文件
 使用git
+安装
 一、
 1.mkdir learngit
 2.cd learngit
@@ -30,3 +31,11 @@ git reset -- hard HEAD^ (回退到上个版本)  ==>穿梭前（b-->a）
 		  -- hard commit id号（回退到指定版本 根据id号）
 		  
 git reflog (查看命令历史，以便确定要回到未来的哪个版本) ==>重返未来 （a-->b）
+
+四、
+1.工作区 Working Directory
+如：learngit
+2.版本库 repository
+.git
+
+创建版本库时 Git自动创建了唯一一个master分支 所以git commit 就是往master分支上提交
