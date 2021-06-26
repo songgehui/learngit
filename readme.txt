@@ -94,8 +94,10 @@ git commit -m "说明"
 3)切换回主分支master
 git checkout master
 
-把song分支的工作成果合并到master分支上
+4)把song分支的工作成果合并到master分支上
 git merge song
+5)git pull
+6) git push
 
 SWITCH
 1)创建并切换到新的dev分支
@@ -103,6 +105,10 @@ git switch -c dev
 2)直接切换到已有的master分支
 git switch master
 
+十、
+在Git中打标签非常简单，首先，切换到需要打标签的分支上
+git tag v1.0
+git tag
 
 
 
