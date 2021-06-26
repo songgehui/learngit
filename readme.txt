@@ -71,4 +71,37 @@ git remote add origin git@github.com:michaelliao(自己的GitHub账户名)/learn
 远程库的名字就是origin
 
 2.把本地库的所有内容推送到远程库上
-git push -u origin master
+git push -u origin master（第一次推送）
+git push origin master
+
+八、 先创建远程库 再从远程库克隆 
+git clone 克隆一个本地库 
+git clone git@github.com:michaelliao[账户名]/gitskills.git
+cd gitskills
+ls
+
+九、分支管理
+1.创建分支,然后切换到dev分支
+git checkout -b song <==> git branch song  git checkout song
+
+
+git branch 查看当前分支
+
+1)在分支song操作文件
+2)提交修改文件 git add readme.txt
+
+3)切换回主分支master
+git checkout master
+
+把song分支的工作成果合并到master分支上
+git merge song
+
+SWITCH
+1)创建并切换到新的dev分支
+git switch -c dev
+2)直接切换到已有的master分支
+git switch master
+
+
+
+
