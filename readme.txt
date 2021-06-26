@@ -62,3 +62,13 @@ git rm删掉，并且git commit
    
 另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本
 git checkout -- test.txt
+
+七、远程仓库（github 仓库）
+把已有本地仓库与远程仓库github关联,然后把本地内容推送到GitHub仓库
+1.在本地learngit仓库下运行命令
+git remote add origin git@github.com:michaelliao(自己的GitHub账户名)/learngit.git
+
+远程库的名字就是origin
+
+2.把本地库的所有内容推送到远程库上
+git push -u origin master
