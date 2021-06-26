@@ -89,6 +89,7 @@ git branch 查看当前分支
 
 1)在分支song操作文件
 2)提交修改文件 git add readme.txt
+git commit -m "说明"
 
 3)切换回主分支master
 git checkout master
